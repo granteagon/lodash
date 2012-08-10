@@ -669,7 +669,7 @@ _.every([true, 1, null, 'yes'], Boolean);
 ### <a id="_extendobject--source1-source2-"></a>`_.extend(object [, source1, source2, ...])`
 <a href="#_extendobject--source1-source2-">#</a> [&#x24C8;](https://github.com/bestiejs/lodash/blob/master/lodash.js#L1042 "View in source") [&#x24C9;][1]
 
-Assigns enumerable properties of the source object(s) to the `destination` object. Subsequent sources will overwrite propery assignments of previous sources.
+Assigns enumerable properties of the source object(s) to the `destination` object. Subsequent sources will overwrite property assignments of previous sources.
 
 #### Arguments
 1. `object` *(Object)*: The destination object.

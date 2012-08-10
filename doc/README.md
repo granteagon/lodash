@@ -2600,6 +2600,14 @@ hello = _.wrap(hello, function(func) {
 });
 hello();
 // => 'before, hello: moe, after'
+
+// using extra args
+var hello = function(name) { return 'hello: ' + name; };
+hello = _.wrap(hello, function(func, name) {
+  return 'before, ' + func(name) + ', after';
+}, name);
+hello('moe');
+// => 'before, hello: moe, after'
 ~~~
 
 * * *
